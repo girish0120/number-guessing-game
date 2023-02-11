@@ -1,7 +1,7 @@
 import random
 import math
 
-# Taking input for lower range and upper ranger
+# Taking input for lower range and upper range
 lowerRange = int(input("Enter a numer for lower range: "))
 upperRange = int(input("Enter a number for upper range: "))
 
@@ -24,7 +24,7 @@ while totalGuesses < numOfLife:
     # Taking input for the guess
     guess = int(input("\nGuess a number: "))
 
-    # Checking the guess number
+    # Matching the guess number with random number
     match guess:
         case _ if guess == randomNum:
             print(f"You guessed the number correctly using {totalGuesses} live(s)")
