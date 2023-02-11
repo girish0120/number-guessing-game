@@ -37,4 +37,4 @@ while totalGuesses < numOfLife:
 
 # Print that user failed to guess after exiting the loop
 else:
-    print(f"You have exhausted all your lives! The random number was {randomNum}")
+    print(f"\nYou have exhausted all your lives! The random number was {randomNum}")
